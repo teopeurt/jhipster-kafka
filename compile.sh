@@ -1,0 +1,1 @@
+cd /Users/teopeurt/workspace/naakw-ws/jhipster-kafka/alert && ./mvnw -ntp -Pprod verify jib:dockerBuild && cd /Users/teopeurt/workspace/naakw-ws/jhipster-kafka/gateway &&  ./mvnw -ntp -Pprod verify jib:dockerBuild && cd /Users/teopeurt/workspace/naakw-ws/jhipster-kafka/store && ./mvnw -ntp -Pprod verify jib:dockerBuild 
